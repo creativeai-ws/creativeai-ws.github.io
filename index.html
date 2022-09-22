@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<!-- adapted from http://bayesiandeeplearning.org/ -->
+<html class="mel_workshop"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Creative AI Across Modalities | AAAI 2023</title>
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Expires" content="0">
+		<meta name="description" content="Embodied Multimodal Learning Workshop | ICLR 2021">
+		<meta name="keywords" content="CreativeAI,Multimodal,Learning,Workshop,AAAI,2023">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./CAIAM_files/main.css">
+		<meta property="og:title" content="Creative AI Across Modalities | AAAI 2023">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="http://creativeai-ws.org">
+		<meta property="og:description" content="Creative AI Across Modalities Workshop at AAAI 2023">
+	</head>
+	<body data-gr-c-s-loaded="true" class="">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1>Creative AI Across Modalities</h1>
+						<h2><b>AAAI 2023 Workshop (Hybrid)</b></h2>
+						<h2>Date: TBD</h2>
+						<!--<h2><a href="https://iclr.cc/virtual/2021/workshop/2134" target="_blank"><font color="red">Link to ICLR Workshop Virtual Site (Join Zoom)</font></a></h2>-->
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav" class="">
+						<ul>
+							<li><a href="https://creativeai-ws.github.io/#abstract" class="active">Abstract</a></li>
+							<li><a href="https://creativeai-ws.github.io/#speakers" class="">Invited Speakers</a></li>
+							<li><a href="https://creativeai-ws.github.io/#cfp" class="">Call for Papers</a></li>
+							<li><a href="https://creativeai-ws.github.io/#schedule" class="">Schedule</a></li>
+							<li><a href="https://creativeai-ws.github.io/#organizers" class="">Organizers</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Introduction -->
+							<section id="abstract" class="main">
+								<div>
+									<div class="content">
+										<header class="major">
+											<center>
+												<h2>Abstract</h2>
+											</center>
+										</header>
+										<h3> 
+										For the past few years, we have witnessed eye-opening generation results from AI foundation models such as GPT-3, and DALL-E2. These models have set up great infrastructures for new types of creative generation across various modalities such as language (e.g. story generation), images (e.g. text-to-image generation, fashion design), and audio (e.g. lyrics-to-music generation). Researchers in these fields encounter many similar challenges such as how to use AI to help professional creators, how to evaluate creativity for an AI system, how to boost the creativity of AI, how to avoid negative social impact, and so on. There have been various workshops that focus on some aspects of AI generation. This workshop aims to bridge researchers and practitioners from NLP, computer vision, music, ML, and other computational fields to create the 1st workshop on “Creative AI across Modalities”.
+										</h3>
+									
+
+									</div>
+									<!-- <span class="image"></span> -->
+								</div>
+							</section>
+
+
+
+							<section id="speakers" class="main">
+								<div>
+									<div class="content">
+										<header class="major">
+											<center>
+												<h2>Invited Speakers</h2>
+											</center>
+										</header>
+										<div class="row uniform" align="center">
+					 						<div class="3u 12u$(small)">
+												<a href="https://sites.google.com/site/snigdhac/" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/snigdha.jpeg" alt="">
+													</span>
+													<h2>Snigdha Chaturvedi<br> (UNC) </h2>
+												</a>
+											</div>
+											<div class="3u 12u$(small)">
+											<a href="https://chrisdonahue.com/" target="_blank" class="image">
+												<span class="image fit">
+													<img src="./CAIAM_files/chris.png" alt="">
+												</span>
+												<h2>Chris Donahue<br> (Google Magenta) </h2>
+											</a>
+											</div>
+					 						<div class="3u 12u$(small)">
+												<a href="https://www.decontextualize.com/" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/allison.jpeg" alt="">
+													</span>
+													<h2>Allison Parrish<br> (NYU) </h2>
+												</a>
+											</div>
+					 						<div class="3u 12u$(small)">
+												<a href="https://faculty.cc.gatech.edu/~parikh/" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/devi.jpeg" alt="">
+													</span>
+													<h2>Devi Parikh<br> (Georgia Tech) </h2>
+												</a>
+											</div>
+										</div>	
+										<div class="row uniform" align="center">
+					 						<div class="3u 12u$(small)">
+												<a href="https://www.is.mpg.de/~kjk" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/niki.png" alt="">
+													</span>
+													<h2>Niki Kittur<br> (CMU) </h2>
+												</a>
+											</div>
+											<div class="3u 12u$(small)">
+												<a href="http://eilab.gatech.edu/mark-riedl.html" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/mark_2.png" alt="">
+													</span>
+													<h2>Mark Riedl<br> (Georgia Tech) </h2>
+												</a>
+											</div>
+					 						<div class="3u 12u$(small)">
+												<a href="https://cs.stanford.edu/~diyiy/" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/diyi.jpeg" alt="">
+													</span>
+													<h2>Diyi Yang<br> (Stanford) </h2>
+												</a>
+											</div>
+					 						<div class="3u 12u$(small)">
+												<a href="https://www.dgp.toronto.edu/~hertzman/" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/aarong.png" alt="">
+													</span>
+													<h2>Aaron Hertzman<br> (Adobe Research) </h2>
+												</a>
+											</div>
+									</div>											
+								</div>
+							</section>
+
+
+							<section id="cfp" class="main">
+								<div>
+									<div class="content">
+										<header class="major">
+											<center>
+											<h2>Call for Papers</h2>
+											</center>
+										</header>
+										<h3> Authors are invited to send the following relevant work, either archival or non-archival, in the AAAI-23 proceedings format:
+										<li> Long paper: Submission of original work up to eight pages in length (including references).</li>
+										<li> Short paper: Submission of work in progress with preliminary results, and position papers, up to four pages in length (+ references).</li>
+
+										<ul>
+												<li>Creative language generation: stories, poetry, figurative languages. </li>
+												<li>Generative model and algorithms for image/audio, and multi-modal/video generation.</li>
+												<li>Theory and analysis for creativity (e.g., humor understanding)</li>
+												<li>Detecting and quantifying creativity</li>
+												<li>Data and resources for creative generation</li>
+												<li>Applications of creative AI generation, such as automatic video dubbing</li>
+												<li>Novel evaluation for creative AI generated outputs</li>
+												<li>Social, cultural, and ethical considerations of creative AI generations, such as racial/gender bias, trustworthiness</li>
+										</ul>
+											A submission should take the form of an extended abstract (2-4 pages long excluding references) in PDF format using the <a href="https://www.aaai.org/Publications/Templates/AuthorKit23.zip" target="_blank">AAAI style</a>. We will accept submissions of (1) papers that have not been previously published or accepted for publication in substantially similar form; (2) papers that have been published or accepted for publication in recent venues including journal, conference, workshop, and arXiv; and (3) research proposals for future work with a focus on well-defined concepts and ideas. All submissions will be reviewed with double blind policy.
+										</h3>
+										<br>
+										
+										<h2>Open Review submissions website: <a href="https://openreview.net/forum?id=j9da6xZUhmJ">https://openreview.net/forum?id=j9da6xZUhmJ</a><h2>
+
+										<br>
+										<h2>Key Dates:
+											<h3>
+											<ul>
+												<li>Submission deadline: TBD</li>
+												<li>Notification to authors: TBD</li>
+												<li>Workshop date: TBD</li>
+											</ul>
+											</h3>
+										</h2>
+
+
+										<!--<h2>Program Committee:
+											<h3>
+												Unnat Jain (UIUC), Michelle Lee (Stanford), Paul Pu Liang (CMU), Senthil Purushwalkam (CMU), Santhosh Kumar Ramakrishnan (UT Austin), Mohit Shridhar (UW), Tianmin Shu (MIT), Shaoxiong Wang (MIT)
+											</h3>
+										</h2>-->
+
+
+									</div>
+								</div>
+							</section>
+
+
+
+
+
+							<section id="schedule" class="main">
+								<div>
+									<div class="content">
+										<header class="major">
+											<center>
+											<h2>Schedule - TBD</h2>
+											</center>
+										</header>
+
+										<!--<div class="table-wrapper">
+											<table class="alt">
+												<tbody>
+                                                    <col width="20%">
+                                                    <col width="20%">
+                                                    <col width="25%">
+													<tr>
+														<td>07:55 am - 08:00 am (PDT)</td>
+														<td>Introduction and Opening Remarks</td>
+														<td></td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>08:00 am - 08:30 am (PDT)</td>
+														<td>Invited Talk</td>
+														<td>Katherine Kuchenbecker<br><font size="2">(MPI-IS)</font></td> 
+														<td></td>
+													</tr>
+													<tr>
+														<td>08:30 am - 09:00 am (PDT) </td>
+														<td>Invited Talk</td>
+														<td>Danica Kragic<br><font size="2">(KTH)</font></td> 
+														<td></td>
+													</tr>
+													<tr>
+														<td>09:00 am - 09:30 am (PDT) </td>
+														<td><b>Paper Session A</b></td>
+														<td>A1 - A5</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>09:30 am - 09:40 am (PDT) </td>
+														<td><b>Paper Session A Q&A</b></td>
+														<td></td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>09:40 am - 10:00 am (PDT)</td>
+														<td>Break</td>
+														<td></td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>10:00 am - 10:30 am (PDT)</td>
+														<td>Invited Talk</td>
+														<td>Linda Smith<br><font size="2">(Indiana University)</font></td> 
+														<td></td>
+													</tr>
+													<tr>
+														<td>10:30 am - 11:00 am (PDT)</td>
+														<td>Invited Talk</td>
+														<td>Felix Hill<br><font size="2">(DeepMind)</font></td> 
+														<td></td>
+													</tr>
+													<tr>
+														<td>11:00 am - 12:00 pm (PDT)</td>
+														<td><b>Panel Discussion</b></td>
+														<td>Kristen Grauman, Felix Hill, Katherine Kuchenbecker, Sergey Levine, Jitendra Malik, Linda Smith</td>
+														<td>Having a question for the panelists? Ask <a href="https://app.sli.do/event/0bmttghf/live/questions">here</a>!</td>
+													</tr>
+													<tr>
+														<td>12:00 pm - 12:30 pm (PDT)</td>
+														<td>Break</td>
+														<td></td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>12:30 pm - 01:00 pm (PDT)</td>
+														<td>Invited Talk</td>
+														<td>Abhinav Gupta<br><font size="2">(CMU & FAIR)</font></td> 
+														<td></td>
+													</tr>
+													<tr>
+														<td>01:00 pm - 01:30 pm (PDT)</td>
+														<td>Invited Talk</td>
+														<td>Sergey Levine<br><font size="2">(UC Berkeley & Google)</font></td> 
+														<td></td>
+													</tr>
+													<tr>
+														<td>01:30 pm - 02:00 pm (PDT)</td>
+														<td><b>Paper Session B</b></td>
+														<td>B1 - B4</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>02:00 pm - 02:10 pm (PDT) </td>
+														<td><b>Paper Session B Q&A</b></td>
+														<td></td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>02:10 pm - 02:30 pm (PDT) </td>
+														<td>Break</td>
+														<td></td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>02:30 pm - 03:00 pm (PDT)</td>
+														<td>Invited Talk</td>
+														<td>Jitendra Malik<br><font size="2">(UC Berkeley & FAIR)</font></td> 
+														<td></td>
+													</tr>
+													<tr>
+														<td>03:00 pm - 03:30 pm (PDT)</td>
+														<td>Invited Talk</td>
+														<td>Claudia Pérez D'Arpino<br><font size="2">(Stanford University)</font></td> 
+														<td></td>
+													</tr>
+													<tr>
+														<td>03:30 pm - 03:35 pm (PDT)</td>
+														<td>Closing Remarks</td>
+														<td></td>
+														<td></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<center>
+											<h2>Accepted Papers</h2>
+										</center>
+	<table>
+												<tbody>
+<col width="40%">
+<col width="60%">
+<tr><td><b>
+Title
+</b></td><td><b>
+Authors
+</b></td><td><b>
+Paper Session
+</b></td></tr>
+<tr><td><b><a href="./Papers/A1.pdf">ABC Problem: An Investigation of Offline RL for Vision-Based Dynamic Manipulation</a></b></td><td>Kamyar Ghassemipour, Igor Mordatch, Shixiang Shane Gu</td><td><b>A1</b></td></tr>
+<tr><td><b><a href="./Papers/A2.pdf">Language Acquisition is Embodied, Interactive, Emotive: a Research Proposal</a></b></td><td>Casey Kennington</td><td><b>A2</b></td></tr>
+<tr><td><b><a href="./Papers/A3.pdf">Ask & Explore: Grounded Question Answering for Curiosity-Driven Exploration</a></b></td><td>Jivat Neet Kaur, Yiding Jiang, Paul Pu Liang</td><td><b>A3</b></td></tr>
+<tr><td><b><a href="./Papers/A4.pdf">Towards Teaching Machines with Language: Interactive Learning From Only Language Descriptions of Activities</a></b></td><td>Khanh Nguyen, Dipendra Misra, Robert Schapire, Miroslav Dudik, Patrick Shafto</td><td><b>A4</b></td></tr>
+<tr><td><b><a href="./Papers/A5.pdf">YouRefIt: Embodied Reference Understanding with Language and Gesture</b></td><td>Yixin Chen, Qing Li, Deqian Kong, Yik Lun Kei, Tao Gao, Yixin Zhu, Song-Chun Zhu, Siyuan Huang</td><td></a><b>A5</b></td></tr>
+<tr><td><b><a href="./Papers/B1.pdf">Learning to Set Waypoints for Audio-Visual Navigation</b></td><td>Changan Chen, Sagnik Majumder, Ziad Al-Halah, Ruohan Gao, Santhosh K. Ramakrishnan, Kristen Grauman</td><td></a><b>B1</b></td></tr>
+<tr><td><b><a href="./Papers/B2.pdf">Semantic Audio-Visual Navigation</b></td><td>Changan Chen, Ziad Al-Halah, Kristen Grauman</a></td><td><b>B2</b></td></tr>
+<tr><td><b>Attentive Feature Reuse for Multi Task Meta learning</b></td><td>Kiran Lekkala, Laurent Itti</a></td><td><b>B3</b></td></tr>
+<tr><td><b><a href="./Papers/B4.pdf">SeLaVi: self-labelling videos without any annotations from scratch</b></td><td>Yuki Asano, Mandela Patric, Christian Rupprecht, Andrea Vedaldi</td><td><b>B4</b></td></tr>
+
+												</tbody>
+											</table>
+									</div>
+								</div>
+							</section>-->
+
+
+							<section id="organizers" class="main special">
+								<div>
+									<div class="content" align="center">
+										<header class="major">
+											<h2>Organizers</h2>
+										</header>
+
+										<div class="row uniform" align="center">
+											<div class="2u 12u$(small)">
+												<a href="https://sites.google.com/view/drjinghuang" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/jing.jpg" alt="">
+													</span>
+													<h3>Jing Huang <br> (Amazon)</h2>
+												</a>
+											</div>
+											<div class="2u 12u$(small)">
+												<a href="http://prithvirajva.com/" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/raj_1.png" alt="">
+													</span>
+													<h3>Prithviraj (Raj) Ammanabrolu<br> (AI2)</h2>
+												</a>
+											</div>
+											<div class="2u 12u$(small)">
+												<a href="https://vnpeng.net/" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/violet.png" alt="">
+													</span>
+													<h3>Violet Peng<br> (UCLA)</h2>
+												</a>
+											</div>
+											<div class="2u 12u$(small)">
+												<a href="https://www.cs.unc.edu/~mbansal/" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/mohit.png" alt="">
+													</span>
+													<h3>Mohit Bansal<br> (UNC)</h2>
+												</a>
+											</div>
+											<div class="2u 12u$(small)">
+												<a href="https://jiajunwu.com/" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/jiajun.jpeg" alt="">
+													</span>
+													<h3>Jiajun Wu<br> (Stanford)</h2>
+												</a>
+											</div>
+										</div>
+										<div class="row uniform" align="center">
+											<div class="2u 12u$(small)">
+												<a href="https://www.linkedin.com/in/arindam-mandal" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/arindam.jpeg" alt="">
+													</span>
+													<h3>Arindam Mandal<br> (Amazon)</h2>
+												</a>
+											</div>
+											<div class="2u 12u$(small)">
+												<a href="https://ken77921.github.io/" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/hawshiuan.webp" alt="">
+													</span>
+													<h3>Haw-Shiuan Chang<br> (Amazon)</h2>
+												</a>
+											</div>
+											<div class="2u 12u$(small)">
+												<a href="https://ai.stanford.edu/~rhgao/" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/ruohan.jpg" alt="">
+													</span>
+													<h3>Ruohan Gao <br> (Stanford)</h2>
+												</a>
+											</div>
+											<div class="2u 12u$(small)">
+												<a href="https://users.soe.ucsc.edu/~hannahbrahman/" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/faeze.png" alt="">
+													</span>
+													<h3>Faeze Brahman <br> (AI2)</h2>
+												</a>
+											</div>
+											<div class="2u 12u$(small)">
+												<a href="https://cseweb.ucsd.edu/~jmcauley/" target="_blank" class="image">
+													<span class="image fit">
+														<img src="./CAIAM_files/julian.jpeg" alt="">
+													</span>
+													<h3>Julian McAuley <br> (UCSD)</h2>
+												</a>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">Website design adapted from <a href="http://bayesiandeeplearning.org/">Yarin Gal </a> and based on <a href="https://html5up.net/">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script async="" src="./MEL_files/analytics.js"></script><script src="./CAIAM_files/jquery.min.js"></script>
+			<script src="./CAIAM_files/jquery.scrollex.min.js"></script>
+			<script src="./CAIAM_files/jquery.scrolly.min.js"></script>
+			<script src="./CAIAM_files/skel.min.js"></script>
+			<script src="./CAIAM_files/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="./CAIAM_files/main.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JC1QVS8GW2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JC1QVS8GW2');
+</script>
+	
+</body></html>
